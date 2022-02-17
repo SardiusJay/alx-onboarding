@@ -1,0 +1,28 @@
+public int computeSumofSquares (int n1, int n2) 
+{
+    int sum=0;
+    if(n2>n1)
+    {
+        for(int i=n1;i<=n2;i++)
+        {
+            sum=((sum)+(n1*n1));
+        }
+    }
+    return sum;
+    
+
+}
+calculate the sum of squares of given input of numbers
+to calculate this firstly:- The code will illustrate how sum of squares of given input of numbers
+public int computeSumofSquares (int n1, int n2) 
+{
+    int sum=0;
+    if(n2>n1)
+    then the following code will be written to complete it
+    {
+        for(int i=n1;i<=n2;i++)
+        {
+            sum=((sum)+(n1*n1));
+        }
+    }
+    return sum;

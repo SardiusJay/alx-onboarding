@@ -1,0 +1,26 @@
+We want two things, the sum and average of even numbers from 1 to 50.
+
+Sum of even numbers can also be represented as:  ∑n=1252n 
+
+We can push out the  2  as a constant, and evaluate  2⋅ ∑n=125n=2⋅ 25⋅ 262=650 
+
+Since we are considering our upper bound as  50 , we can infer there are  25  even numbers.
+
+The average would be  125⋅ ∑n=1252n=65025=26 
+
+Enough of math, let’s get to the programming part of this (:
+
+The logic would remain the same, irrespective of the language.
+
+sum = 0
+
+count = 25
+
+for i in range(26):
+
+sum += (2*i)
+
+print(sum)
+
+print(int(sum/count))
+
